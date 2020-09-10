@@ -40,7 +40,7 @@ DirectShapes can be placed in any top level Category enabling graphic and materi
 
 ![Create a DirectShapes]({{ "/static/images/guides/rhino-to-revit-directshape.png" | prepend: site.baseurl }})
 
-For additional graphic controls between elements within a category, [Rule-based View Filters](https://knowledge.autodesk.com/support/revit-products/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Revit-DocumentPresent/files/GUID-145815E2-5699-40FE-A358-FFC739DB7C46-htm.html) can be applied with custom parameter values. DirectShapes cannot be placed in subcategories but the source geometry can be imported into Loadable Families and be assigned a cubcategory (discussed later in this guide):
+For additional graphic controls between elements within a category, [Rule-based View Filters](https://knowledge.autodesk.com/support/revit-products/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Revit-DocumentPresent/files/GUID-145815E2-5699-40FE-A358-FFC739DB7C46-htm.html) can be applied with custom parameter values. DirectShapes cannot be placed in subcategories but the source geometry can be imported into Loadable Families and be assigned a subcategory (discussed later in this guide):
 
 ![Add a Shared Parameter for a filter]({{ "/static/images/guides/directshape-filter-gh.png" | prepend: site.baseurl }})
 
